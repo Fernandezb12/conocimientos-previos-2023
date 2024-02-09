@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel fernandez">
+    <link rel="icon" type="image/png" href="../img/css.png">
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <title>CCS 3</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="navegacion">
+                <ul class="menu">
+                    <li><a href="/Contenido/comandos_git.html">GIT</a>
+                        <ul class="submenu">
+                            <li><a href="/Contenido/comandos_git.html" target="_blank">Comandos 1</a></li>
+                            <li><a href="/Contenido/comandos2.html" target="_blank">Comandos 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="HTML5.html" target="_blank">HTML5</a></li>
+                    <li><a href="CSS_3.html" target="_blank">CSS 3</a>
+                        <ul class="submenu">
+                            <li><a href="/Contenido/Fondos_Bordes.html" target="_blank">Fondos y bordes</a></li>
+                            <li><a href="/Contenido/PYM.html" target="_blank">Display and Media Queries</a></li>
+                        </ul>
+                    <li><a href="Javascript.html" target="_blank"> JAVASCRIPT </a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <section>
+        <form>
+            <div>
+                <input type="text" name="buscador" placeholder="Buscando...">
+            </div>
+        </form>
+    </section>
+    <div class="container-all">
+        <h1 class="title"> Hojas de estilo en cascada CSS 3</h1>
+        <img src="../img/css-p.svg" alt="CSS">
+        <h1 class="sub-title">Tipos de selectores</h1><br>
+        <ul>
+            <li><b>Selectores por tipo:</b> Seleccionan elementos por su nombre de etiqueta (ej. h1, p, img).</li>
+            <li><b>Selectores por clase:</b> Seleccionan elementos con un atributo class específico (ej. .clase).</li>
+            <li><b>Selectores por ID:</b> Seleccionan un elemento con un atributo id específico (ej. #id).</li>
+            <li><b>Selectores descendientes:</b> Seleccionan elementos que son descendientes de otro elemento (ej. div
+                p).</li>
+            <li><b>Selectores adyacentes:</b> Seleccionan elementos que son adyacentes a otro elemento (ej. h1 + p).
+            </li>
+            <li><b>Selectores de hermanos:</b> Seleccionan elementos que son hermanos de otro elemento (ej. h1 ~ p).
+            </li>
+            <li><b>Pseudo-clases:</b> Seleccionan elementos en función de su estado (ej. :hover, :focus).</li>
+            <li><b>Pseudo-elementos:</b> Seleccionan partes específicas de un elemento (ej. ::before, ::after).</li><br>
+        </ul>
+        <h1 class="sub-title">Pseudo clases</h1><br>
+        <ul>
+            <li><b>hover:</b> Se aplica cuando el cursor se encuentra sobre el elemento.</li>
+            <li><b>focus:</b> Se aplica cuando el elemento tiene el foco.</li>
+            <li><b>active:</b> Se aplica cuando el elemento se activa (por ejemplo, se hace clic en él).</li>
+            <li><b>visited:</b> Se aplica cuando se ha visitado un enlace.</li>
+            <li><b>first-child:</b> Se aplica al primer hijo de un elemento.</li>
+            <li><b>last-child:</b> Se aplica al último hijo de un elemento.</li>
+            <li><b>nth-child(n):</b> Se aplica al n-ésimo hijo de un elemento.</li>
+            <li><b>even:</b> Se aplica a los elementos pares.</li>
+            <li><b>odd:</b> Se aplica a los elementos impares.</li><br>
+        </ul>
+        <h1 class="sub-title">Unidades de medida relativas</h1><br>
+        <img style="float:right; width: 30%; margin-top: -3%; margin-right: 15%;" 
+            src="/img/medidas.png" alt="unidades  CSS">
+        <ul>
+            <li><b>em:</b> Relativa al tamaño de fuente del elemento padre.</li>
+            <li><b>rem:</b> Relativa al tamaño de fuente raíz.</li>
+            <li><b>vh:</b> Porcentaje de la altura del viewport.</li>
+            <li><b>vw:</b> Porcentaje de la anchura del viewport.</li>
+            <li><b>vmin:</b> El valor más pequeño de vh y vw.</li>
+            <li><b>vmax:</b> El valor más grande de vh y vw.</li>
+        </ul>
+        <hr style="border-color: white; 
+        background-color: transparent;
+        height: 2px;">
+        <div class="btn-container">
+            <button>
+                <a href="../index.html" class="btn2"><span class="spn2">INICIO</span></a>
+            </button>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
