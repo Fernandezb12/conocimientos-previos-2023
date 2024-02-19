@@ -244,3 +244,13 @@ hr {
     background-color: black;
     width: 100%;
 }
+.linea {
+    border-color: white; 
+        background-color: transparent;
+        height: 2px;
+}
+.imgs {
+    margin-top: 0px;
+    margin-right: 50px;
+    width: 200px;
+}
